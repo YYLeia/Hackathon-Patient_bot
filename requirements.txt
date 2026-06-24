@@ -1,0 +1,7 @@
+# Core (Tkinter is stdlib — no pip install needed)
+openai>=1.30.0
+python-dotenv>=1.0.0
+
+# Optional: testing
+pytest>=8.0.0
+hypothesis>=6.100.0
