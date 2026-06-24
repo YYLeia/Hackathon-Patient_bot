@@ -1,0 +1,181 @@
+====================================================
+  HOSPITAL DISCHARGE SUMMARY
+  Riverside Community Hospital
+====================================================
+
+DOCUMENT ID: DS-2026-002
+DATE OF DISCHARGE: June 21, 2026
+ATTENDING PHYSICIAN: Dr. Antonio Reyes, MD
+
+----------------------------------------------------
+PATIENT INFORMATION
+----------------------------------------------------
+Name:            Linh Thi Nguyen
+Date of Birth:   September 3, 1955
+Age:             70 years old
+Gender:          Female
+MRN:             MRN-007345
+Primary Language: Vietnamese (Limited English proficiency)
+Interpreter Required: YES — Vietnamese
+Emergency Contact: Minh Nguyen (Husband) — 555-317-4492
+
+----------------------------------------------------
+PATIENT RISK PROFILE
+----------------------------------------------------
+Age Category:    Elderly (70)
+Primary Condition: Ischemic stroke (mild, right-sided weakness)
+Secondary Conditions:
+  - Atrial fibrillation (irregular heartbeat)
+  - Hypertension (Stage 1)
+  - Osteoporosis
+Allergies:       No known drug allergies
+Mobility Status: Mild right-sided weakness; requires walking assistance;
+                 FALL RISK — HIGH
+Cognitive Status: Alert and oriented; mild expressive aphasia (word-finding
+                  difficulty) — improving
+Language/Communication: Speaks Vietnamese primarily; limited English.
+                        Family members assist with translation.
+Smoking/Alcohol: Non-smoker, no alcohol use
+
+Reason for Admission: Patient was brought to the Emergency Department on
+June 14, 2026 by her husband after she experienced sudden right arm weakness
+and slurred speech. MRI confirmed ischemic stroke in the left middle cerebral
+artery territory. Patient received IV tPA (clot-dissolving medication) within
+3 hours of symptom onset. Recovery progressing well.
+
+Summary of Treatment:
+  - IV tPA administered in ED
+  - Cardiac monitoring for 7 days (atrial fibrillation confirmed)
+  - Blood pressure management
+  - Speech therapy sessions (x4)
+  - Physical therapy sessions (x5) — right-sided strength improving
+  - Occupational therapy assessment completed
+  - Anticoagulation therapy started (Apixaban)
+  - Bone density scan ordered
+
+Discharge Condition: Stable. Right-sided weakness significantly improved.
+Speech improving. Ambulating with assistance. BP controlled: 128/78 mmHg.
+
+----------------------------------------------------
+MEDICATION SCHEDULE
+----------------------------------------------------
+IMPORTANT: Do NOT stop any medication without first calling your doctor,
+especially the blood thinner (Apixaban). Stopping it suddenly can cause
+another stroke.
+
+*** A Vietnamese interpreter will explain medications at discharge. ***
+*** A translated medication schedule is provided separately. ***
+
+1. APIXABAN 5mg (Blood Thinner — Stroke and Clot Prevention)
+   - Take: 1 tablet TWICE daily
+   - When: Morning and Evening, with or without food
+   - VERY IMPORTANT: Do NOT miss doses. Do NOT take extra doses.
+   - WARNING: This medication reduces blood clotting. Avoid activities
+     that may cause cuts or falls. If bleeding does not stop after
+     10 minutes of pressure, go to the ER.
+
+2. AMLODIPINE 5mg (Blood Pressure)
+   - Take: 1 tablet ONCE daily
+   - When: Every morning
+
+3. ATORVASTATIN 40mg (Cholesterol — Stroke Prevention)
+   - Take: 1 tablet ONCE daily
+   - When: Every evening at bedtime
+
+4. CALCIUM + VITAMIN D SUPPLEMENT (Bone Health)
+   - Take: 1 tablet TWICE daily
+   - When: Morning and Evening with food
+   - Brand suggested: Caltrate 600+D (available over the counter)
+
+5. ASPIRIN — DO NOT TAKE
+   NOTE: Patient is on Apixaban. Aspirin is NOT prescribed and should
+   NOT be taken unless specifically instructed by the neurologist.
+
+----------------------------------------------------
+FOLLOW-UP APPOINTMENTS
+----------------------------------------------------
+
+APPOINTMENT 1 — NEUROLOGY (STROKE SPECIALIST) — URGENT
+  Doctor:    Dr. Angela Wu, MD (Neurologist)
+  Date:      June 28, 2026 (1 week after discharge)
+  Time:      9:30 AM
+  Location:  Riverside Neurology Center, Suite 150
+             300 West Bridge Boulevard
+  Phone:     555-720-4400
+  Interpreter: VIETNAMESE INTERPRETER WILL BE PROVIDED
+               Please confirm interpreter when calling to confirm appt.
+  Purpose:   Stroke recovery assessment, medication review, MRI follow-up
+  Bring:     All medication bottles, discharge paperwork
+
+APPOINTMENT 2 — CARDIOLOGY (HEART SPECIALIST)
+  Doctor:    Dr. Samuel Park, MD (Cardiologist)
+  Date:      July 10, 2026
+  Time:      1:00 PM
+  Location:  Heart & Vascular Institute, 77 Eastside Medical Complex
+  Phone:     555-841-6600
+  Interpreter: Request Vietnamese interpreter when scheduling
+  Purpose:   Atrial fibrillation management, Holter monitor review
+  Bring:     Medication list, recent ECG results (in discharge packet)
+
+APPOINTMENT 3 — PHYSICAL THERAPY
+  Provider:  Riverside Rehabilitation Center
+  Date:      June 25, 2026 (first session, then twice weekly)
+  Time:      11:00 AM
+  Location:  Riverside Rehab Center, Ground Floor
+             15 Healing Way Drive
+  Phone:     555-203-5500
+  Purpose:   Continue right-sided strength and coordination recovery
+  Note:      Family member welcome to attend to assist with communication
+
+APPOINTMENT 4 — SPEECH THERAPY
+  Provider:  Riverside Rehabilitation Center (same location as PT)
+  Date:      June 26, 2026 (first session, then once weekly)
+  Time:      2:30 PM
+  Purpose:   Continue expressive aphasia recovery, communication strategies
+
+APPOINTMENT 5 — PRIMARY CARE
+  Doctor:    Dr. Antonio Reyes, MD
+  Date:      July 15, 2026
+  Time:      10:00 AM
+  Location:  Riverside Community Hospital Outpatient Clinic, Room 112
+  Phone:     555-301-2200
+  Purpose:   General health check, blood pressure monitoring, lab work
+
+----------------------------------------------------
+HOME CARE INSTRUCTIONS
+----------------------------------------------------
+- Take all medications at the SAME TIME every day to build a routine.
+- Use a pill organizer — the pharmacy can help set this up.
+- The patient MUST NOT drive until cleared by the neurologist.
+- Remove trip hazards at home (rugs, cords on floor) to prevent falls.
+- Install grab bars in bathroom if not already present.
+- Perform prescribed home exercises from physical therapy every day.
+- Practice speech therapy exercises as instructed by therapist.
+- Family should monitor for any new symptoms and act immediately
+  if stroke signs return (see below).
+
+CAREGIVER NOTE: This patient has limited English proficiency. All
+communication should be in Vietnamese where possible. The family is the
+primary support system. Ensure family members understand medication
+schedule and warning signs. Translated materials provided at discharge.
+
+----------------------------------------------------
+STROKE WARNING SIGNS — CALL 911 IMMEDIATELY (BE FAST)
+----------------------------------------------------
+B — BALANCE: Sudden loss of balance or coordination
+E — EYES: Sudden vision changes or double vision
+F — FACE: Sudden face drooping (ask patient to smile — is it uneven?)
+A — ARM: Sudden arm weakness (ask patient to raise both arms — does one fall?)
+S — SPEECH: Sudden slurred or strange speech
+T — TIME: Time to call 911 immediately if ANY of the above occur
+
+Also call 911 or go to ER for:
+- Sudden severe headache with no known cause
+- Unusual bleeding that won't stop (due to blood thinner)
+- Irregular heartbeat with dizziness or chest pain
+
+----------------------------------------------------
+DISCHARGE AUTHORIZED BY:
+Dr. Antonio Reyes, MD — License #MD-58033
+Date: June 21, 2026, 2:15 PM
+====================================================
