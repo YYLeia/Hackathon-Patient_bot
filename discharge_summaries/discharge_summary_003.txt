@@ -20,7 +20,7 @@ Interpreter Required: YES — Spanish
 Emergency Contact: Carmen Castillo (Daughter) — 555-428-7761
 
 ----------------------------------------------------
-PATIENT RISK PROFILE
+PATIENT RISK PROFILE 
 ----------------------------------------------------
 Age Category:    Elderly (83)
 Primary Condition: Acute decompensated heart failure (CHF — Congestive

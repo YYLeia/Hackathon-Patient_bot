@@ -31,9 +31,10 @@ class MainApp(tk.Tk):
         self._current_frame = None
         self._session = None
 
-        # Window setup — fixed phone-style size
+        # Window setup — resizable, phone-style minimum size
         self.title("Dr. Mario — Post-Discharge Check-In")
-        self.resizable(False, False)
+        self.resizable(True, True)
+        self.minsize(theme.APP_WIDTH, theme.APP_HEIGHT)
         self.configure(bg="#2D3748")  # dark outer background = phone body
 
         # Centre window on screen
@@ -44,25 +45,13 @@ class MainApp(tk.Tk):
         y = max(0, (sh - theme.APP_HEIGHT) // 2 - 30)
         self.geometry(f"{theme.APP_WIDTH}x{theme.APP_HEIGHT}+{x}+{y}")
 
-        # Phone bezel container
-        self._phone_frame = tk.Frame(
-            self, bg="#2D3748",
-            padx=0, pady=0,
-            width=theme.APP_WIDTH,
-            height=theme.APP_HEIGHT,
-        )
-        self._phone_frame.pack(expand=True)
-        self._phone_frame.pack_propagate(False)
+        # Phone bezel container — expands with window
+        self._phone_frame = tk.Frame(self, bg="#2D3748")
+        self._phone_frame.pack(fill="both", expand=True)
 
-        # Phone screen area (the actual app content)
-        self._screen = tk.Frame(
-            self._phone_frame,
-            bg=theme.BG_MAIN,
-            width=theme.APP_WIDTH,
-            height=theme.APP_HEIGHT,
-        )
-        self._screen.pack(fill="both", expand=True)
-        self._screen.pack_propagate(False)
+        # Phone screen area (the actual app content) — fills the window
+        self._screen = tk.Frame(self._phone_frame, bg=theme.BG_MAIN)
+        self._screen.pack(fill="both", expand=True, padx=0, pady=0)
 
         # Show dashboard first
         self._show_dashboard()
