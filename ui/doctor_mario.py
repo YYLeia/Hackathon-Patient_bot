@@ -88,8 +88,9 @@ class DoctorMarioWidget:
 
         # ── Wave: right arm angle oscillates ─────────────────────────────────
         wave_angle = math.sin(2 * math.pi * t / _WAVE_PERIOD) * _WAVE_AMP
-        # base raised-arm angle ~-50 degrees from vertical, oscillate ±WAVE_AMP
-        arm_angle = math.radians(-50 + wave_angle)
+        # Raise the arm UP and OUT to the right of the head (+angle = outward),
+        # so the waving hand clears the face instead of crossing over it.
+        arm_angle = math.radians(50 + wave_angle)
 
         # ── Head: fixed y (does NOT bob) so it looks like it bobs relative ───
         # Actually bob head slightly less than body for a gentle "nod" feel
@@ -192,11 +193,28 @@ class DoctorMarioWidget:
         self.canvas.create_polygon(*arm_pts,
                                    fill="#FFFFFF", outline="#CCCCCC", width=2)
 
-        # Right hand (at arm tip)
+        # ── Right hand: open palm waving (palm + four fingers + thumb) ────────
+        skin, skin_edge = "#F4C2A1", "#D4956B"
         hr = 9 * s
+        # Palm
         self.canvas.create_oval(
-            tx - hr, ty - hr, tx + hr, ty + hr,
-            fill="#F4C2A1", outline="#D4956B", width=2,
+            tx - hr, ty - hr * 0.7, tx + hr, ty + hr,
+            fill=skin, outline=skin_edge, width=2,
+        )
+        # Four fingers fanned upward (open, waving hand)
+        fw, fh = 3.0 * s, 9.0 * s
+        for fx in (-6.6, -2.2, 2.2, 6.6):
+            x = tx + fx * s
+            self.canvas.create_oval(
+                x - fw, ty - hr * 0.4 - fh,
+                x + fw, ty - hr * 0.4 + 2 * s,
+                fill=skin, outline=skin_edge, width=1,
+            )
+        # Thumb to the lower-left of the palm (toward the arm)
+        self.canvas.create_oval(
+            tx - hr - 3 * s, ty - 1 * s,
+            tx - hr + 4 * s, ty + hr * 0.9,
+            fill=skin, outline=skin_edge, width=1,
         )
 
         # Stethoscope arc (stays near torso, doesn't move with arm for simplicity)

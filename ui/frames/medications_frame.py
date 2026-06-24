@@ -76,8 +76,9 @@ class MedicationScheduleFrame(tk.Frame):
 
     def _on_mark_taken(self, med):
         med.taken_today = not med.taken_today
-        # Refresh the view
-        for w in self._inner.winfo_children():
+        # Rebuild the whole frame (clear ALL children) so the header and nav bar
+        # aren't duplicated on top of the existing ones.
+        for w in self.winfo_children():
             w.destroy()
         self._build_ui()
 
