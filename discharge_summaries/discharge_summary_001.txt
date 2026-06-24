@@ -1,0 +1,159 @@
+====================================================
+  HOSPITAL DISCHARGE SUMMARY
+  St. Mary's General Hospital
+====================================================
+
+DOCUMENT ID: DS-2026-001
+DATE OF DISCHARGE: June 20, 2026
+ATTENDING PHYSICIAN: Dr. Sarah Chen, MD
+
+----------------------------------------------------
+PATIENT INFORMATION
+----------------------------------------------------
+Name:            Margaret Elaine Thornton
+Date of Birth:   March 14, 1948
+Age:             78 years old
+Gender:          Female
+MRN:             MRN-004821
+Primary Language: English
+Emergency Contact: Robert Thornton (Son) — 555-204-8811
+
+----------------------------------------------------
+PATIENT RISK PROFILE
+----------------------------------------------------
+Age Category:    Elderly (78)
+Primary Condition: Type 2 Diabetes Mellitus with peripheral neuropathy
+Secondary Conditions:
+  - Hypertension (Stage 2)
+  - Chronic Kidney Disease (Stage 3)
+  - Mild cognitive decline (early-stage)
+Allergies:       Penicillin (rash), Sulfa drugs
+Mobility Status: Walks with cane; fall risk — HIGH
+Cognitive Status: Mild impairment; may need caregiver assistance
+Smoking/Alcohol: Non-smoker, no alcohol use
+
+Reason for Admission: Patient was admitted on June 13, 2026 with poorly
+controlled blood sugar (HbA1c: 11.2%), foot ulcer on right heel (Grade 2),
+and elevated blood pressure (178/102 mmHg).
+
+Summary of Treatment:
+  - IV insulin drip for first 48 hours, transitioned to oral medication
+  - Wound care and debridement of right heel ulcer
+  - Blood pressure medication adjusted
+  - Nephrology consultation completed
+  - Diabetes education sessions completed (x2)
+
+Discharge Condition: Stable. Blood sugar under improved control (fasting
+glucose 130 mg/dL at discharge). Wound healing progressing. BP: 142/88.
+
+----------------------------------------------------
+MEDICATION SCHEDULE
+----------------------------------------------------
+IMPORTANT: Take all medications exactly as listed. Do NOT stop any
+medication without consulting your doctor.
+
+1. METFORMIN 500mg (Diabetes)
+   - Take: 1 tablet TWICE daily
+   - When: Morning with breakfast, Evening with dinner
+   - Notes: Do NOT take if you skip a meal
+
+2. AMLODIPINE 10mg (Blood Pressure)
+   - Take: 1 tablet ONCE daily
+   - When: Every morning
+   - Notes: May cause ankle swelling — inform doctor if this occurs
+
+3. LISINOPRIL 5mg (Blood Pressure / Kidney Protection)
+   - Take: 1 tablet ONCE daily
+   - When: Every evening
+   - Notes: Do NOT take potassium supplements without asking your doctor
+
+4. ATORVASTATIN 40mg (Cholesterol)
+   - Take: 1 tablet ONCE daily
+   - When: Every evening at bedtime
+   - Notes: Avoid grapefruit juice
+
+5. ASPIRIN 81mg (Heart Protection)
+   - Take: 1 tablet ONCE daily
+   - When: Every morning with food
+   - Notes: Low-dose — do NOT substitute with regular aspirin
+
+6. WOUND CARE — Right Heel Ulcer
+   - Clean wound with saline solution ONCE daily
+   - Apply prescribed antibiotic ointment (Mupirocin)
+   - Cover with non-stick dressing
+   - Change dressing EVERY DAY or when soiled
+   - ALERT: If wound becomes red, warm, smells bad, or patient has fever
+     above 38°C (100.4°F), go to the Emergency Room immediately.
+
+----------------------------------------------------
+FOLLOW-UP APPOINTMENTS
+----------------------------------------------------
+
+APPOINTMENT 1 — PRIMARY CARE (URGENT)
+  Doctor:    Dr. Sarah Chen, MD (Primary Care)
+  Date:      June 27, 2026 (1 week after discharge)
+  Time:      10:30 AM
+  Location:  St. Mary's Outpatient Clinic, Room 204
+             45 Riverside Drive, Building B
+  Phone:     555-301-7700
+  Purpose:   Blood pressure check, blood sugar review, wound inspection
+  Bring:     All medication bottles, blood sugar log, insurance card
+
+APPOINTMENT 2 — ENDOCRINOLOGY (DIABETES SPECIALIST)
+  Doctor:    Dr. James Okafor, MD (Endocrinologist)
+  Date:      July 11, 2026
+  Time:      2:00 PM
+  Location:  Diabetes & Endocrine Center, Suite 310
+             200 North Medical Parkway
+  Phone:     555-482-9900
+  Purpose:   Long-term diabetes management plan, HbA1c recheck
+  Bring:     Blood sugar log (check fasting sugar every morning and record it)
+
+APPOINTMENT 3 — NEPHROLOGY (KIDNEY SPECIALIST)
+  Doctor:    Dr. Priya Mehta, MD (Nephrologist)
+  Date:      July 18, 2026
+  Time:      11:00 AM
+  Location:  Kidney Care Associates, 88 Lakeview Medical Center
+  Phone:     555-603-2211
+  Purpose:   Kidney function monitoring, medication review
+  Bring:     Recent lab results (provided in discharge packet)
+
+APPOINTMENT 4 — WOUND CARE CLINIC
+  Doctor:    Wound Care Nurse Specialist (assigned at clinic)
+  Date:      June 24, 2026 (4 days after discharge)
+  Time:      9:00 AM
+  Location:  St. Mary's Wound Care Clinic, Ground Floor
+  Phone:     555-301-7788
+  Purpose:   Wound assessment and redressing
+
+----------------------------------------------------
+HOME CARE INSTRUCTIONS
+----------------------------------------------------
+- Check blood sugar (glucose) every morning before eating. Write it down.
+- Check feet every day for cuts, sores, or changes in color.
+- Eat regular meals — do NOT skip meals due to diabetes medication.
+- Drink at least 6 glasses of water daily (unless told otherwise by doctor).
+- Limit salt in food (no added table salt) to help blood pressure.
+- Do NOT use heating pads or hot water bottles near feet (reduced sensation).
+- If you feel dizzy, have chest pain, or difficulty breathing, call 911
+  or go to the nearest Emergency Room immediately.
+
+CAREGIVER NOTE: Patient has mild cognitive decline. A family member or
+caregiver should assist with medication management and appointment attendance.
+A blister pack or pill organizer is strongly recommended.
+
+----------------------------------------------------
+WHEN TO CALL 911 / GO TO ER IMMEDIATELY
+----------------------------------------------------
+- Chest pain or pressure
+- Difficulty breathing
+- Sudden confusion or unusual behavior
+- Blood sugar below 70 mg/dL with symptoms (shaking, sweating, confusion)
+- Fever above 38.5°C (101°F) with wound redness or discharge
+- Sudden severe headache or vision changes
+
+----------------------------------------------------
+DISCHARGE AUTHORIZED BY:
+Dr. Sarah Chen, MD — License #MD-44821
+Date: June 20, 2026, 11:45 AM
+====================================================

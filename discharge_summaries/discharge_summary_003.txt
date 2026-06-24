@@ -1,0 +1,251 @@
+====================================================
+  HOSPITAL DISCHARGE SUMMARY
+  Northside Medical Center
+====================================================
+
+DOCUMENT ID: DS-2026-003
+DATE OF DISCHARGE: June 22, 2026
+ATTENDING PHYSICIAN: Dr. Fatima Al-Rashidi, MD
+
+----------------------------------------------------
+PATIENT INFORMATION
+----------------------------------------------------
+Name:            Eduardo Javier Castillo
+Date of Birth:   November 22, 1942
+Age:             83 years old
+Gender:          Male
+MRN:             MRN-009102
+Primary Language: Spanish (Limited English proficiency)
+Interpreter Required: YES — Spanish
+Emergency Contact: Carmen Castillo (Daughter) — 555-428-7761
+
+----------------------------------------------------
+PATIENT RISK PROFILE
+----------------------------------------------------
+Age Category:    Elderly (83)
+Primary Condition: Acute decompensated heart failure (CHF — Congestive
+                   Heart Failure)
+Secondary Conditions:
+  - Chronic Obstructive Pulmonary Disease (COPD)
+  - Type 2 Diabetes Mellitus (diet-controlled)
+  - Benign Prostatic Hyperplasia (BPH — enlarged prostate)
+  - Mild anemia
+  - Depression (stable, on medication)
+Allergies:       Ibuprofen and NSAIDs (worsens kidney function and CHF),
+                 Codeine (nausea/vomiting)
+Mobility Status: Limited — uses walker; shortness of breath with exertion;
+                 FALL RISK — HIGH
+Cognitive Status: Alert and oriented; intact cognition; slow processing
+Language/Communication: Speaks Spanish primarily. Daughter (Carmen)
+                        is fluent in English and Spanish and assists.
+Smoking/Alcohol: Former smoker (quit 15 years ago); no current alcohol use
+
+Reason for Admission: Patient arrived June 15, 2026 via ambulance with
+severe shortness of breath, swollen legs (bilateral pitting edema), and
+2-day history of inability to lie flat to sleep. Weight had increased 4 kg
+over one week. Diagnosed with acute decompensated heart failure. Hospital
+admission for IV diuresis and cardiac stabilization.
+
+Summary of Treatment:
+  - IV Furosemide (diuretic) for fluid removal — 5 days
+  - Oxygen therapy (supplemental O2 maintained >92%)
+  - Cardiac monitoring throughout admission
+  - Echocardiogram: EF (Ejection Fraction) = 35% (reduced)
+  - Cardiology consultation with heart failure specialist
+  - Nebulizer treatments for COPD exacerbation
+  - Diabetes: Blood sugar monitored, diet counseling provided
+  - Patient educated on daily weight monitoring and fluid restriction
+  - Discharge weight: 74.2 kg (admission weight: 78.1 kg — 3.9 kg fluid removed)
+
+Discharge Condition: Improved. Breathing comfortable at rest. Legs less
+swollen. Oxygen saturation 94% on room air. Patient educated on warning
+signs. Family (daughter) fully briefed.
+
+----------------------------------------------------
+MEDICATION SCHEDULE
+----------------------------------------------------
+IMPORTANT CHANGES: Several medications have been CHANGED or ADDED.
+Do NOT take old medications from before this hospital stay.
+Use ONLY the medications listed below.
+
+*** A Spanish-language medication summary is provided separately. ***
+*** Daughter (Carmen) has been briefed on all changes. ***
+
+1. FUROSEMIDE 40mg (Water Pill — Removes Extra Fluid)
+   - Take: 1 tablet ONCE daily
+   - When: Every MORNING (take in the morning so you are not up urinating
+     at night)
+   - IMPORTANT: Weigh yourself every morning before eating or drinking.
+     Write the weight down. If weight increases MORE THAN 1 kg (2 lbs)
+     in ONE DAY or 2 kg (4 lbs) in TWO DAYS, call your doctor immediately.
+
+2. CARVEDILOL 6.25mg (Heart Rate and Blood Pressure — Heart Failure)
+   - Take: 1 tablet TWICE daily
+   - When: Morning with breakfast, Evening with dinner
+   - IMPORTANT: Do NOT stop suddenly. May cause dizziness — rise slowly
+     from sitting or lying positions.
+
+3. LISINOPRIL 5mg (Heart Protection — Heart Failure)
+   - Take: 1 tablet ONCE daily
+   - When: Every evening
+   - Notes: May cause a dry cough — this is normal. Inform doctor if
+     cough becomes bothersome.
+
+4. SPIRONOLACTONE 25mg (Heart Failure / Fluid Balance)
+   - Take: 1 tablet ONCE daily
+   - When: Every morning with food
+   - Notes: This medication can raise potassium. Do NOT take potassium
+     supplements. Avoid high-potassium foods in excess (bananas, oranges,
+     potatoes).
+
+5. ATORVASTATIN 20mg (Cholesterol)
+   - Take: 1 tablet ONCE daily
+   - When: Every evening at bedtime
+
+6. TIOTROPIUM INHALER (COPD — Long-Acting Bronchodilator)
+   - Use: 1 PUFF once daily
+   - When: Every morning
+   - How: Breathe in slowly and deeply. Hold breath for 5-10 seconds.
+   - This is a MAINTENANCE inhaler — use every day even if breathing feels fine.
+
+7. SALBUTAMOL (ALBUTEROL) INHALER — RESCUE INHALER (COPD / Breathlessness)
+   - Use: 1-2 PUFFS as needed
+   - When: Only when feeling short of breath or wheezing
+   - Maximum: 4 times per day. If using more than twice daily, call doctor.
+   - IMPORTANT: Shake well before each use.
+
+8. TAMSULOSIN 0.4mg (Enlarged Prostate — Helps Urination)
+   - Take: 1 capsule ONCE daily
+   - When: 30 minutes AFTER the same meal each day (e.g., after dinner)
+   - Notes: May cause dizziness — sit for a few minutes before standing up.
+
+9. SERTRALINE 50mg (Depression)
+   - Take: 1 tablet ONCE daily
+   - When: Every morning with food
+   - Notes: Continue as before. Do NOT stop without consulting doctor.
+
+10. FERROUS SULFATE 325mg (Iron — For Anemia)
+    - Take: 1 tablet ONCE daily
+    - When: Every morning, 1 hour before eating OR 2 hours after eating
+    - Notes: Take with a glass of orange juice to improve absorption.
+      Stools may appear darker — this is normal and not harmful.
+
+DO NOT TAKE: Ibuprofen, Naproxen, Advil, Motrin, or any anti-inflammatory
+pain relievers (NSAIDs). These can worsen heart failure and kidney function.
+For pain, use Paracetamol/Acetaminophen (Tylenol) only — up to 2 tablets
+(500mg each) up to 4 times daily.
+
+----------------------------------------------------
+FLUID RESTRICTION
+----------------------------------------------------
+Limit total fluid intake to 1.5 LITERS (approximately 6 cups) per day.
+This includes: water, juice, soup, tea, coffee, ice cream, gelatin.
+Excess fluid worsens heart failure.
+
+----------------------------------------------------
+FOLLOW-UP APPOINTMENTS
+----------------------------------------------------
+
+APPOINTMENT 1 — HEART FAILURE CLINIC (URGENT)
+  Doctor:    Dr. Fatima Al-Rashidi, MD (Cardiologist / Heart Failure)
+  Date:      June 25, 2026 (3 days after discharge)
+  Time:      8:30 AM
+  Location:  Northside Heart Failure Clinic, Suite 200
+             120 Cardiac Care Boulevard
+  Phone:     555-910-3300
+  Interpreter: SPANISH INTERPRETER WILL BE PROVIDED
+               Please confirm when calling.
+  Purpose:   Weight check, fluid status, medication review
+  Bring:     Daily weight log, all medications, discharge summary
+
+APPOINTMENT 2 — PRIMARY CARE
+  Doctor:    Dr. Marco Perez, MD (Primary Care — speaks Spanish)
+  Date:      July 3, 2026
+  Time:      11:30 AM
+  Location:  Community Health Partners, 55 Elm Street, Suite 102
+  Phone:     555-222-6600
+  Purpose:   General health, diabetes review, blood work (kidney function,
+             potassium levels, blood count)
+  Bring:     Weight log, medication bottles, blood sugar log
+
+APPOINTMENT 3 — PULMONOLOGY (LUNG SPECIALIST)
+  Doctor:    Dr. Kevin Thornton, MD (Pulmonologist)
+  Date:      July 17, 2026
+  Time:      3:00 PM
+  Location:  Northside Pulmonary Associates, Suite 440
+             120 Cardiac Care Boulevard
+  Phone:     555-910-3355
+  Interpreter: Request Spanish interpreter when calling.
+  Purpose:   COPD management review, inhaler technique check, spirometry
+  Bring:     Both inhalers
+
+APPOINTMENT 4 — CARDIAC REHABILITATION (ENROLLMENT)
+  Provider:  Northside Cardiac Rehab Program
+  Date:      July 22, 2026 (first assessment session)
+  Time:      10:00 AM
+  Location:  Northside Medical Center, Rehabilitation Wing, Room 101
+  Phone:     555-910-4400
+  Purpose:   Supervised exercise program for heart failure recovery
+  Note:      Program runs 3 times per week for 12 weeks. Transportation
+             assistance may be available — ask coordinator.
+
+----------------------------------------------------
+HOME CARE INSTRUCTIONS
+----------------------------------------------------
+DAILY WEIGHT MONITORING (CRITICAL):
+  - Weigh yourself EVERY MORNING before eating or drinking.
+  - Use the same scale, at the same time, wearing similar clothing.
+  - Write the weight in your log book (provided at discharge).
+  - ACTION PLAN:
+    * Weight gain of 1 kg (2 lbs) in 1 day → Call doctor same day
+    * Weight gain of 2 kg (4 lbs) in 2 days → Call doctor immediately
+    * Weight gain of 3 kg (6 lbs) in 1 week → Go to ER
+
+BREATHING:
+  - Use the rescue inhaler (blue one) if you feel short of breath.
+  - If shortness of breath does not improve after 2 puffs, seek help.
+  - Sleep with head elevated (2-3 pillows) to ease breathing at night.
+  - If you cannot lie flat due to breathlessness, go to ER.
+
+DIET:
+  - LOW SALT diet: Less than 2 grams (2000 mg) of sodium per day.
+  - Avoid canned soups, processed meats, salty snacks, fast food.
+  - Limit fluids to 1.5 liters per day (see fluid restriction above).
+  - Eat small, frequent meals rather than large ones.
+
+ACTIVITY:
+  - Light activity (short walks) is encouraged. Stop if breathless.
+  - Do NOT lift heavy objects (over 5 kg).
+  - Do NOT drive until cleared by cardiologist.
+
+CAREGIVER NOTE: Daughter Carmen Castillo has been educated on the full
+discharge plan including medication administration, daily weight monitoring,
+fluid restriction, and warning signs. She will be the primary caregiver.
+A home health nurse visit is arranged for June 23, 2026 (see discharge
+coordinator for confirmation). Spanish-language educational materials
+provided to patient and family.
+
+----------------------------------------------------
+WHEN TO CALL DOCTOR (555-910-3300 — 24hr nurse line)
+----------------------------------------------------
+- Weight increase as described above
+- Increased swelling in legs or feet
+- New or worsening shortness of breath
+- Dry, persistent cough that worsens suddenly
+- Dizziness or feeling faint when standing
+
+----------------------------------------------------
+WHEN TO CALL 911 / GO TO ER IMMEDIATELY
+----------------------------------------------------
+- Severe shortness of breath (cannot speak in full sentences)
+- Chest pain or pressure
+- Coughing up pink or frothy mucus
+- Heart beating very fast, irregular, or fluttering with dizziness
+- Cannot breathe lying flat at all
+- Sudden confusion or loss of consciousness
+
+----------------------------------------------------
+DISCHARGE AUTHORIZED BY:
+Dr. Fatima Al-Rashidi, MD — License #MD-72209
+Date: June 22, 2026, 3:30 PM
+====================================================
