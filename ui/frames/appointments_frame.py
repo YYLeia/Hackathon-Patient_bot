@@ -72,14 +72,14 @@ class AppointmentsFrame(tk.Frame):
             discharge_frame,
             text="📋  Discharge Summary",
             font=theme.FONT_SMALL_B, bg=theme.TEAL_LIGHT, fg=theme.TEAL_DARK,
-            padx=10, pady=(8, 2),
-        ).pack(anchor="w")
+            padx=10,
+        ).pack(anchor="w", pady=(8, 2))
         tk.Label(
             discharge_frame,
             text=self._patient.discharge_notes,
             font=theme.FONT_SMALL, bg=theme.TEAL_LIGHT, fg=theme.TEXT_MID,
-            wraplength=330, justify="left", padx=10, pady=(0, 10),
-        ).pack(anchor="w")
+            wraplength=330, justify="left", padx=10,
+        ).pack(anchor="w", pady=(0, 10))
 
         tk.Frame(inner, bg=theme.BG_MAIN, height=60).pack()
 
@@ -104,8 +104,13 @@ class AppointmentsFrame(tk.Frame):
             col = theme.TEAL_PRIMARY if is_active else theme.TEXT_HINT
             btn_frame = tk.Frame(nav, bg=theme.BG_NAV, cursor="hand2")
             btn_frame.pack(side="left", expand=True, fill="y")
-            tk.Label(btn_frame, text=icon, font=("Segoe UI Emoji", 18),
-                     bg=theme.BG_NAV, fg=col).pack(pady=(6, 0))
-            tk.Label(btn_frame, text=label, font=theme.FONT_NAV,
-                     bg=theme.BG_NAV, fg=col).pack()
-            btn_frame.bind("<Button-1>", lambda e, k=key: self._on_nav(k))
+            icon_lbl = tk.Label(btn_frame, text=icon, font=("Segoe UI Emoji", 18),
+                                bg=theme.BG_NAV, fg=col)
+            icon_lbl.pack(pady=(6, 0))
+            text_lbl = tk.Label(btn_frame, text=label, font=theme.FONT_NAV,
+                                bg=theme.BG_NAV, fg=col)
+            text_lbl.pack()
+            # Bind the click to the frame AND its child labels — in Tk a click
+            # on a child Label does not propagate up to the parent Frame.
+            for w in (btn_frame, icon_lbl, text_lbl):
+                w.bind("<Button-1>", lambda e, k=key: self._on_nav(k))

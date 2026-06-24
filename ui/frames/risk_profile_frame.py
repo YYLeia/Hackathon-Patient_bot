@@ -165,8 +165,13 @@ class RiskProfileFrame(tk.Frame):
             col = theme.TEAL_PRIMARY if is_active else theme.TEXT_HINT
             btn_frame = tk.Frame(nav, bg=theme.BG_NAV, cursor="hand2")
             btn_frame.pack(side="left", expand=True, fill="y")
-            tk.Label(btn_frame, text=icon, font=("Segoe UI Emoji", 18),
-                     bg=theme.BG_NAV, fg=col).pack(pady=(6, 0))
-            tk.Label(btn_frame, text=label, font=theme.FONT_NAV,
-                     bg=theme.BG_NAV, fg=col).pack()
-            btn_frame.bind("<Button-1>", lambda e, k=key: self._on_nav(k))
+            icon_lbl = tk.Label(btn_frame, text=icon, font=("Segoe UI Emoji", 18),
+                                bg=theme.BG_NAV, fg=col)
+            icon_lbl.pack(pady=(6, 0))
+            text_lbl = tk.Label(btn_frame, text=label, font=theme.FONT_NAV,
+                                bg=theme.BG_NAV, fg=col)
+            text_lbl.pack()
+            # Bind the click to the frame AND its child labels — in Tk a click
+            # on a child Label does not propagate up to the parent Frame.
+            for w in (btn_frame, icon_lbl, text_lbl):
+                w.bind("<Button-1>", lambda e, k=key: self._on_nav(k))
