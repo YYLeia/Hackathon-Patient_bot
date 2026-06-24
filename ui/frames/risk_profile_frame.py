@@ -63,7 +63,7 @@ class RiskProfileFrame(tk.Frame):
         av_frame = tk.Frame(id_inner, bg=theme.TEAL_LIGHT, width=60, height=60)
         av_frame.pack(side="left", padx=(0, 12))
         av_frame.pack_propagate(False)
-        tk.Label(av_frame, text="👴" if self._patient.age >= 65 else "👤",
+        tk.Label(av_frame, text="👵" if self._patient.age >= 65 else "👤",
                  font=("Segoe UI Emoji", 28), bg=theme.TEAL_LIGHT).pack(
             expand=True)
 
@@ -157,7 +157,8 @@ class RiskProfileFrame(tk.Frame):
             ("🏠", "Home", "dashboard"),
             ("💬", "Check-In", "chat"),
             ("💊", "Meds", "medications"),
-            ("📅", "Appointments", "appointments"),
+            ("🗓️", "Streak", "calendar"),
+            ("📅", "Appts", "appointments"),
             ("👤", "Profile", "risk"),
         ]
         for icon, label, key in nav_items:

@@ -15,7 +15,7 @@ DEMO_PATIENT = PatientContext(
     name="Margaret Thompson",
     age=78,
     primary_diagnosis="Heart Failure (NYHA Class II)",
-    discharge_date=datetime.now() - timedelta(days=3),
+    discharge_date=datetime.now() - timedelta(days=24),
     risk_profile=RiskProfile(
         risk_score=72,
         risk_level="HIGH",

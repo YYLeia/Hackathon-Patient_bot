@@ -5,8 +5,62 @@ Reusable widget helpers: rounded frames, chat bubbles, cards, alert banners.
 
 from __future__ import annotations
 import tkinter as tk
+import tkinter.font as tkfont
 from tkinter import ttk
 from ui import theme
+
+
+# ── Rounded pill button (canvas-based, since tk.Button can't round corners) ────
+
+def make_rounded_button(
+    parent: tk.Widget,
+    text: str,
+    command,
+    *,
+    bg: str = theme.TEAL_PRIMARY,
+    fg: str = theme.TEXT_LIGHT,
+    hover_bg: str | None = None,
+    font=theme.FONT_BODY_B,
+    padx: int = 22,
+    pady: int = 12,
+    radius: int = 22,
+    min_width: int | None = None,
+) -> tk.Canvas:
+    """A big, friendly, fully-rounded (pill) button drawn on a Canvas.
+
+    tk.Button cannot render rounded corners, so we draw a rounded rectangle and
+    centred text on a Canvas and bind the click ourselves.
+    """
+    hover_bg = hover_bg or theme.TEAL_DARK
+
+    fam = font[0]
+    size = font[1] if len(font) > 1 else 11
+    weight = font[2] if len(font) > 2 else "normal"
+    f = tkfont.Font(family=fam, size=size, weight=weight)
+
+    lines = text.split("\n")
+    text_w = max(f.measure(ln) for ln in lines)
+    text_h = f.metrics("linespace") * len(lines)
+
+    w = max(text_w + padx * 2, min_width or 0)
+    h = text_h + pady * 2
+    r = min(radius, h // 2)
+
+    canvas = tk.Canvas(
+        parent, width=w, height=h,
+        bg=parent.cget("bg"), highlightthickness=0, cursor="hand2",
+    )
+
+    def _draw(fill):
+        canvas.delete("all")
+        _draw_rounded_rect(canvas, 1, 1, w - 1, h - 1, r, fill=fill, outline=fill)
+        canvas.create_text(w / 2, h / 2, text=text, fill=fg, font=f, justify="center")
+
+    _draw(bg)
+    canvas.bind("<Enter>", lambda e: _draw(hover_bg))
+    canvas.bind("<Leave>", lambda e: _draw(bg))
+    canvas.bind("<Button-1>", lambda e: command())
+    return canvas
 
 
 # ── Rounded-corner canvas frame ───────────────────────────────────────────────
@@ -27,13 +81,13 @@ def make_rounded_frame(
     return canvas
 
 
-def _draw_rounded_rect(canvas: tk.Canvas, x1, y1, x2, y2, r, **kwargs):
-    canvas.create_arc(x1, y1, x1+2*r, y1+2*r, start=90,  extent=90,  style="pieslice", **kwargs)
-    canvas.create_arc(x2-2*r, y1, x2, y1+2*r, start=0,   extent=90,  style="pieslice", **kwargs)
-    canvas.create_arc(x1, y2-2*r, x1+2*r, y2, start=180, extent=90,  style="pieslice", **kwargs)
-    canvas.create_arc(x2-2*r, y2-2*r, x2, y2, start=270, extent=90,  style="pieslice", **kwargs)
-    canvas.create_rectangle(x1+r, y1, x2-r, y2, **kwargs, outline="")
-    canvas.create_rectangle(x1, y1+r, x2, y2-r, **kwargs, outline="")
+def _draw_rounded_rect(canvas: tk.Canvas, x1, y1, x2, y2, r, fill="", outline="", width=1):
+    canvas.create_arc(x1, y1, x1+2*r, y1+2*r, start=90,  extent=90,  style="pieslice", fill=fill, outline=outline, width=width)
+    canvas.create_arc(x2-2*r, y1, x2, y1+2*r, start=0,   extent=90,  style="pieslice", fill=fill, outline=outline, width=width)
+    canvas.create_arc(x1, y2-2*r, x1+2*r, y2, start=180, extent=90,  style="pieslice", fill=fill, outline=outline, width=width)
+    canvas.create_arc(x2-2*r, y2-2*r, x2, y2, start=270, extent=90,  style="pieslice", fill=fill, outline=outline, width=width)
+    canvas.create_rectangle(x1+r, y1, x2-r, y2, fill=fill, outline="")
+    canvas.create_rectangle(x1, y1+r, x2, y2-r, fill=fill, outline="")
 
 
 # ── Chat bubble ───────────────────────────────────────────────────────────────
@@ -191,16 +245,19 @@ def make_med_card(parent: tk.Frame, med, on_take_callback) -> tk.Frame:
     tk.Label(inner, text=med.instructions, font=theme.FONT_SMALL,
              bg=theme.BG_CARD, fg=theme.TEXT_MID, wraplength=290, justify="left").pack(anchor="w")
 
-    # Taken button
-    btn_text = "✓ Taken Today" if med.taken_today else "Mark as Taken"
-    btn_color = theme.TEAL_LIGHT if med.taken_today else theme.TEAL_PRIMARY
-    btn_fg = theme.TEAL_DARK if med.taken_today else theme.TEXT_LIGHT
-    btn = tk.Button(
-        inner, text=btn_text, font=theme.FONT_SMALL_B,
-        bg=btn_color, fg=btn_fg, bd=0, padx=10, pady=5,
-        relief="flat", cursor="hand2",
-        command=lambda m=med: on_take_callback(m),
-    )
+    # Taken button (rounded, bright)
+    if med.taken_today:
+        btn = make_rounded_button(
+            inner, "✓ Taken Today", lambda m=med: on_take_callback(m),
+            bg=theme.TEAL_LIGHT, fg=theme.TEAL_DARK, hover_bg=theme.BORDER,
+            font=theme.FONT_SMALL_B, padx=16, pady=7, radius=16,
+        )
+    else:
+        btn = make_rounded_button(
+            inner, "Mark as Taken", lambda m=med: on_take_callback(m),
+            bg=theme.TEAL_PRIMARY, fg=theme.TEXT_LIGHT, hover_bg=theme.TEAL_DARK,
+            font=theme.FONT_SMALL_B, padx=16, pady=7, radius=16,
+        )
     btn.pack(anchor="e", pady=(6, 0))
 
     return frame

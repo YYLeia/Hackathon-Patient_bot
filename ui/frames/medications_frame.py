@@ -92,7 +92,8 @@ class MedicationScheduleFrame(tk.Frame):
             ("🏠", "Home", "dashboard"),
             ("💬", "Check-In", "chat"),
             ("💊", "Meds", "medications"),
-            ("📅", "Appointments", "appointments"),
+            ("🗓️", "Streak", "calendar"),
+            ("📅", "Appts", "appointments"),
             ("👤", "Profile", "risk"),
         ]
         for icon, label, key in nav_items:

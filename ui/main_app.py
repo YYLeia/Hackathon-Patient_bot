@@ -10,6 +10,7 @@ from ui.frames.dashboard_frame import PatientDashboardFrame
 from ui.frames.chat_frame import CheckInChatFrame
 from ui.frames.medications_frame import MedicationScheduleFrame
 from ui.frames.appointments_frame import AppointmentsFrame
+from ui.frames.calendar_frame import CalendarFrame
 from ui.frames.risk_profile_frame import RiskProfileFrame
 from ui.frames.notification_overlay import NotificationOverlay
 
@@ -70,6 +71,8 @@ class MainApp(tk.Tk):
             self._show_medications()
         elif destination == "appointments":
             self._show_appointments()
+        elif destination == "calendar":
+            self._show_calendar()
         elif destination == "risk":
             self._show_risk_profile()
 
@@ -114,6 +117,16 @@ class MainApp(tk.Tk):
     def _show_appointments(self):
         self._clear_screen()
         frame = AppointmentsFrame(
+            self._screen,
+            patient=self._patient,
+            on_nav=self._navigate,
+        )
+        frame.pack(fill="both", expand=True)
+        self._current_frame = frame
+
+    def _show_calendar(self):
+        self._clear_screen()
+        frame = CalendarFrame(
             self._screen,
             patient=self._patient,
             on_nav=self._navigate,
