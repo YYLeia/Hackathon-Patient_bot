@@ -23,10 +23,11 @@ QUICK_REPLIES = [
 
 
 class CheckInChatFrame(tk.Frame):
-    def __init__(self, parent: tk.Widget, controller, patient):
+    def __init__(self, parent: tk.Widget, controller, patient, on_nav=None):
         super().__init__(parent, bg=theme.BG_MAIN)
         self._controller = controller
         self._patient = patient
+        self._on_nav = on_nav
         self._session = None
         self._typing = False
 
@@ -40,10 +41,17 @@ class CheckInChatFrame(tk.Frame):
         top_bar.pack(fill="x")
         top_bar.pack_propagate(False)
 
-        tk.Label(
+        # Back button — navigates to dashboard
+        def _go_back(event=None):
+            if self._on_nav:
+                self._on_nav("dashboard")
+
+        back_btn = tk.Label(
             top_bar, text="←", font=("Segoe UI", 16),
             bg=theme.BG_NAV, fg=theme.TEXT_DARK, cursor="hand2",
-        ).pack(side="left", padx=16, pady=8)
+        )
+        back_btn.pack(side="left", padx=16, pady=8)
+        back_btn.bind("<Button-1>", _go_back)
 
         tk.Label(
             top_bar, text="Chat with Dr. Mario",

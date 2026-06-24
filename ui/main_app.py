@@ -94,6 +94,7 @@ class MainApp(tk.Tk):
             self._screen,
             controller=self._agent,
             patient=self._patient,
+            on_nav=self._navigate,
         )
         frame.pack(fill="both", expand=True)
         self._current_frame = frame
